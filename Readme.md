@@ -1,5 +1,5 @@
 # Abstract
-## Deeper neural networks are difficult to train and pose vanishing gradients problems
+Deeper neural networks are difficult to train and pose vanishing gradients problems
 while training the network. To overcome these challenges, various neural network 
 architectures have been proposed in recent times and these newly proposed architectures
 have helped researchers in the deep learning area in the image classification category by
@@ -19,6 +19,6 @@ better results on CIFAR-10 dataset.
 
 
 ***Steps to run python file:***
-1.To run execute command "python train.py --depth 52 --schedule 120 200" or "CUDA_VISIBLE_DEVICES=0 python train.py --depth 52 --schedule 120 200".
+1.To run, execute command "python train.py --depth 52 --schedule 120 200" or "CUDA_VISIBLE_DEVICES=0 python train.py --depth 52 --schedule 120 200".
 2.The dataset should be stored in folder CIFAR which will be downloaded automatically while executing the above command.
 3.Change Path accordingly in 'train.py'.
